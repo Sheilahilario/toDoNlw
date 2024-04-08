@@ -15,11 +15,7 @@ export const styles = StyleSheet.create({
     color: theme.colors.brand.blue,
     fontSize: theme.font_size.md,
     fontFamily: theme.font_family.bold,
-  },
-  tasksDone: {
-    color: theme.colors.brand.purple,
-    fontSize: theme.font_size.md,
-    fontFamily: theme.font_family.bold,
+    marginHorizontal: 80,
   },
   info: {
     flexDirection: 'row',
@@ -38,7 +34,6 @@ export const styles = StyleSheet.create({
     borderRadius: 999,
     alignItems: 'center',
     justifyContent: 'center',
-    marginLeft: 8,
   },
   counterText: {
     color: theme.colors.base.gray200,
