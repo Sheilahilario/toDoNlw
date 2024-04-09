@@ -1,4 +1,4 @@
-import { View, Image, TextInput, TouchableOpacity } from 'react-native'
+import { View, Image, TextInput, TouchableOpacity, Text } from 'react-native'
 import { styles } from './styles'
 import logoImage from '../../assets/Logo.png'
 import { theme } from '../../theme'
@@ -19,9 +19,6 @@ export function Header({ task, inputRef, onChangeText, onPress }: HeaderProps) {
 				<TextInput
 					style={[
 						styles.input,
-						// inputRef.current?.isFocused() && task
-						// 	? styles.inputBorder
-						// 	: null,
 					]}
 					placeholder="Adicione uma nova tarefa"
 					placeholderTextColor={theme.colors.base.gray300}
